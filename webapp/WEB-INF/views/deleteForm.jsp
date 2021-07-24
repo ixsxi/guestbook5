@@ -10,12 +10,12 @@
 </head>
 <body>
 
-	<form action="/guestbook3/delete" method="post">
+	<form action="/guestbook4/delete" method="post">
 		<input type="text" name="no" value="${param.no }"> 비밀번호<input
 			type="password" name="password" value="">
 		<button type="submit">확인</button>
 	</form>
 
-	<a href="/guestbook3/list">메인으로 돌아가기</a>
+	<a href="/guestbook4/list">메인으로 돌아가기</a>
 </body>
 </html>
