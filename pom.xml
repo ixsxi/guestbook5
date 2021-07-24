@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>guestbook4</groupId>
-  <artifactId>guestbook4</artifactId>
+  <groupId>guestbook5</groupId>
+  <artifactId>guestbook5</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
@@ -51,6 +51,21 @@
 		<artifactId>spring-jdbc</artifactId>
 		<version>${org.springframework-version}</version>
 	</dependency>
+
+	<!-- MyBatis -->
+	<dependency>
+		<groupId>org.mybatis</groupId>
+		<artifactId>mybatis</artifactId>
+		<version>3.2.2</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.mybatis</groupId>
+		<artifactId>mybatis-spring</artifactId>
+		<version>1.2.0</version>
+	</dependency>
+
+
 
 		<!-- jstl -->
 		<dependency>

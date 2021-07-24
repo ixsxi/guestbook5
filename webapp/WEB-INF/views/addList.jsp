@@ -10,7 +10,7 @@
 <body>
 
 
-	<form action="/guestbook4/insert" method="get">
+	<form action="/guestbook5/insert" method="get">
 		<table border='1'>
 			<tr>
 				<td>이름</td>
@@ -40,7 +40,7 @@
 				<td>${guestbookList.no}</td>
 				<td>${guestbookList.name}</td>
 				<td>${guestbookList.reg_date}</td>
-				<td><a href="/guestbook4/deleteForm?no=${guestbookList.no}">삭제</a></td>
+				<td><a href="/guestbook5/deleteForm?no=${guestbookList.no}">삭제</a></td>
 			</tr>
 			<tr>
 				<td colspan='4'>${guestbookList.content }</td>

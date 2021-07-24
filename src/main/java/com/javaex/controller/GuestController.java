@@ -28,12 +28,10 @@ public class GuestController {
 	@RequestMapping(value="/list",method= {RequestMethod.GET,RequestMethod.POST})
 	public String list(Model model) {
 		
-		//Dao 사용
-		//GuestbookDao guestbookDao = new GuestbookDao();
-		
+	
 		//Dao 메소드 사용
 		
-		 List<GuestbookVo> guestList = guestbookDao.getList();
+		 List<GuestbookVo> guestList = guestbookDao.guestbookList();
 		//model 담기 (택배박스에 담기) --> ds 전달된다 --> request의 attribute 영역에 넣는다.!!
 		
 		 model.addAttribute( "guestList" , guestList);
